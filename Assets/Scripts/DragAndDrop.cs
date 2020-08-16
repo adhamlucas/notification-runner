@@ -10,9 +10,17 @@ public class DragAndDrop : MonoBehaviour
     Touch touch;
     Vector2 touchPosition;
     Collider2D touchedCollider;
+
+    public GameObject selectionEffect;
+    public GameObject deathEffect;
+    private GameMaster gameMaster;
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        gameMaster = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
         col = GetComponent<Collider2D>();
     }
 
@@ -26,6 +34,7 @@ public class DragAndDrop : MonoBehaviour
             if (touch.phase == TouchPhase.Began) {
                 touchedCollider = Physics2D.OverlapPoint(touchPosition);
                 if (col == touchedCollider) {
+                    Instantiate(selectionEffect, transform.position, Quaternion.identity);
                     moveAllowed = true;
                 }
             }
@@ -39,6 +48,14 @@ public class DragAndDrop : MonoBehaviour
             if (touch.phase == TouchPhase.Ended) {
                 moveAllowed = false;
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.tag == "Skeleton") {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+            audioSource.Play();
+            gameMaster.GameOver();
         }
     }
 }

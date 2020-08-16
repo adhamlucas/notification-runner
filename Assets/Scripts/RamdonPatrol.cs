@@ -12,7 +12,11 @@ public class RamdonPatrol : MonoBehaviour
 
     Vector2 targetPosition;
 
-    public float speed;
+    public float minSpeed;
+    public float maxSpeed;
+    float speed;
+
+    public float secondsToMaxDifficulty;
 
     // Start is called before the first frame update
     void Start() {
@@ -23,6 +27,7 @@ public class RamdonPatrol : MonoBehaviour
     void Update()
     {
         if ((Vector2) transform.position != targetPosition) {
+            speed = Mathf.Lerp(minSpeed, maxSpeed, GetDifficultyPercente());
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         } else {
             targetPosition = GetRandomPosition();
@@ -36,9 +41,7 @@ public class RamdonPatrol : MonoBehaviour
         return new Vector2(randomX, randomY);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.tag == "Skeleton") {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+    float GetDifficultyPercente() {
+        return Mathf.Clamp01(Time.timeSinceLevelLoad / secondsToMaxDifficulty);
     }
 }
