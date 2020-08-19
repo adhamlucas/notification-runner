@@ -136,9 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6692ac61f6b5f92318d7d4f34690e51f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionEffect: {fileID: 3549347657573409953, guid: fe0cee6edb4019566a6f4d806ac77f5d,
+  selectionEffect: {fileID: 5997616402247412762, guid: 1ede7f0a1f03962d68acfe07001f0eac,
     type: 3}
-  deathEffect: {fileID: 7972713737755895480, guid: de9b62dfd89c99b68a8e9537dda17d45,
+  deathEffect: {fileID: 5997616402247412762, guid: 96cd74236373e5c42b4085082f3a4162,
     type: 3}
 --- !u!58 &5428937753933942701
 CircleCollider2D:

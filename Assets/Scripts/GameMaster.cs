@@ -24,8 +24,10 @@ public class GameMaster : MonoBehaviour
         if (timer <= 0){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
-        } else {
-            timer -= Time.deltaTime;
+        } else { 
+            if(asLost == false) {
+                timer -= Time.deltaTime;
+            }
         }
     }
 
