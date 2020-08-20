@@ -52,7 +52,7 @@ public class DragAndDrop : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.tag == "Skeleton") {
+        if (collision.tag == "makeup") {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             audioSource.Play();
             gameMaster.GameOver();
