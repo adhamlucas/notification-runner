@@ -10,7 +10,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.004797261, y: 0.0038855076}
@@ -41,17 +41,37 @@ PrefabInstance:
     - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: maxX
-      value: -0.595
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: minY
-      value: -1.294
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: minSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: secondsToMaxDifficulty
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: maxY
+      value: -8.82
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660513, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_Name
-      value: batom-makeup Variant
+      value: batom-makeup
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660513, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
@@ -66,12 +86,12 @@ PrefabInstance:
     - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.602
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.294
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
@@ -118,13 +138,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660542, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: eab41430769f8da64b3fb29fec5adcab,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1358341441249660539, guid: b5b7607a2474d974d95b755ca3c9c5e5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b5b7607a2474d974d95b755ca3c9c5e5, type: 3}
 --- !u!1 &2777745096559121430 stripped
 GameObject:
