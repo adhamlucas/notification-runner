@@ -20,7 +20,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.9560528
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -107,7 +107,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 20598d3bfd1566e14b3b278b162964f6,
+      objectReference: {fileID: 21300000, guid: 4310e8687d2f92052a2d474ddfd2e565,
         type: 3}
     - target: {fileID: 5428937753933942696, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
@@ -207,12 +207,12 @@ PrefabInstance:
     - target: {fileID: 5428937753933942699, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 0.49854487
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942699, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 0.3675
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942699, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
@@ -228,17 +228,17 @@ PrefabInstance:
     - target: {fileID: 5428937753933942701, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.02633253
+      value: -0.3679149
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942701, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.011058596
+      value: -0.3249642
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942701, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Radius
-      value: 0.13212323
+      value: 2.1375418
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942710, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
