@@ -26,6 +26,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.112011574, y: 0.31222898}
   m_EdgeRadius: 0
+--- !u!114 &1799080516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777745096559121430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbf5b1169482871786d97671d27f165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  moveSpeed: 5
 --- !u!1001 &3770995213084760695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68,15 +82,20 @@ PrefabInstance:
       propertyPath: maxY
       value: -8.82
       objectReference: {fileID: 0}
+    - target: {fileID: 1358341441249660512, guid: b5b7607a2474d974d95b755ca3c9c5e5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660513, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_Name
-      value: batom-makeup
+      value: batom-makeup Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660513, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_TagString
-      value: makeup
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660539, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
@@ -86,12 +105,12 @@ PrefabInstance:
     - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.79
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.09
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 1358341441249660541, guid: b5b7607a2474d974d95b755ca3c9c5e5,
         type: 3}

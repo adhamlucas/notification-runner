@@ -152,12 +152,12 @@ PrefabInstance:
     - target: {fileID: 5428937753933942699, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.08
+      value: -17.75
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942699, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.82
+      value: -8.52
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942699, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
@@ -219,10 +219,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5428937753933942700, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
+        type: 3}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 5997616402247412762, guid: 96cd74236373e5c42b4085082f3a4162,
+        type: 3}
     - target: {fileID: 5428937753933942701, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.0075716786
+      value: -0.02633253
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942701, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
@@ -232,7 +238,7 @@ PrefabInstance:
     - target: {fileID: 5428937753933942701, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Radius
-      value: 0.15088408
+      value: 0.13212323
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942710, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
@@ -272,7 +278,7 @@ PrefabInstance:
     - target: {fileID: 5428937753933942711, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Name
-      value: po-makeup (1)
+      value: po-makeup Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942711, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
@@ -281,6 +287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5428937753933942697, guid: 7b7aa8af452cd0f4f87c2dc8a933879d, type: 3}
+    - {fileID: 5428937753933942710, guid: 7b7aa8af452cd0f4f87c2dc8a933879d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7b7aa8af452cd0f4f87c2dc8a933879d, type: 3}
 --- !u!1 &1358341441249660513 stripped
 GameObject:

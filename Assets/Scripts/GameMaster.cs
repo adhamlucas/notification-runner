@@ -33,7 +33,7 @@ public class GameMaster : MonoBehaviour
 
     public void GameOver () {
         asLost = true;
-        Invoke("Delay", 1.0f);
+        Invoke("Delay", 0.3f);
     }
 
     public void Delay() {
