@@ -278,12 +278,12 @@ PrefabInstance:
     - target: {fileID: 5428937753933942711, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_Name
-      value: po-makeup Variant
+      value: player
       objectReference: {fileID: 0}
     - target: {fileID: 5428937753933942711, guid: 7b7aa8af452cd0f4f87c2dc8a933879d,
         type: 3}
       propertyPath: m_TagString
-      value: makeup
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5428937753933942697, guid: 7b7aa8af452cd0f4f87c2dc8a933879d, type: 3}

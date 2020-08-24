@@ -236,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartPanel: {fileID: 0}
   timerDisplay: {fileID: 0}
-  timer: 0
+  timer: 1000000
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

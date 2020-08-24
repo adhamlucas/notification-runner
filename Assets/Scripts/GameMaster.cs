@@ -17,7 +17,7 @@ public class GameMaster : MonoBehaviour
 
     private void Update() {
 
-        if (asLost == false) {
+        if (asLost == false && timerDisplay != null) {
             timerDisplay.text = timer.ToString("F0");
         }
 
